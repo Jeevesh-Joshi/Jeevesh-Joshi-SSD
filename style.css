@@ -7,12 +7,12 @@
 }
 
 html {
-    /* background-image: linear-gradient(to bottom, #000000, rgb(4, 58, 121), rgb(0, 0, 0)); */
     /* background-color: rgb(4, 24, 65); */
-    background-image: url('https://www.wallpaperbetter.com/wallpaper/88/738/544/electronic-wallpaper-2K.jpg');
-    background-repeat: no-repeat;
+    background: url(images/bg.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
-    background-position: center;
 }
 
 /* NAVBAR */
@@ -21,6 +21,9 @@ html {
     background-color: black;
     height: 4rem;
     min-height: fit-content;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 #nav ul {
@@ -52,9 +55,15 @@ html {
 #time{
     color: white;
     text-align: center;
-    margin: 1rem auto;
+    margin: 2rem auto;
+    width: 120px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px white;
+    margin-top: 6rem;
     font-weight: 300;
     text-shadow: 0 0 5px white;
+    background-color: black;
 }
 
 
