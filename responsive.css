@@ -45,13 +45,11 @@
 }
 
 .intro {
-    color: rgb(255, 255, 255);
     width: 80%;
     margin: auto;
     margin-top: 2rem;
     margin-bottom: 1rem;
     font-size: 1rem;
-    text-align: justify;
 }
 
 #time{
@@ -72,7 +70,6 @@
     width: 90%;
     height: fit-content;
     margin: auto;
-    background-color: rgb(65, 13, 29);
     padding: 1rem;
 }
 
@@ -88,7 +85,6 @@
     width: 100px;
     margin: 2rem auto;
     border-radius: 50%;
-    background-color: rgb(255, 221, 198);
 }
 #about table {
     border-collapse: collapse;
@@ -104,15 +100,6 @@
     height: 1rem;
 }
 
-#about tr:nth-child(even) {
-    background-color: #be6464;
-}
-
-#about tr:nth-child(odd) {
-    background-color: #b9413d;
-}
-
-
 
 /* EDUCATION */
 
@@ -120,7 +107,6 @@
     width: 90%;
     height: fit-content;
     margin: auto;
-    background-color: rgb(99, 83, 122);
     padding: 1rem;
 }
 
@@ -128,7 +114,6 @@
     text-align: center;
     font-size: 2rem;
     margin-bottom: 2rem;
-    color: white;
 }
 
 #education img{
@@ -137,7 +122,6 @@
     height: 100px;
     margin: 2rem auto;
     border-radius: 50%;
-    background-color: rgb(255, 221, 198);
 }
 #education table {
     border-collapse: collapse;
@@ -159,13 +143,6 @@
 #education a:hover{
     color: black;
     font-weight: bold;
-}
-#education tr:nth-child(even) {
-    background-color: #6479be;
-}
-
-#education tr:nth-child(odd) {
-    background-color: #3d6fb9;
 }
 
 
