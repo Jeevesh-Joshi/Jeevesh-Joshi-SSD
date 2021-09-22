@@ -1,0 +1,204 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Segoe UI';
+}
+
+html {
+    background-color: rgb(4, 24, 65);
+}
+
+/* NAVBAR */
+
+#nav {
+    background-color: black;
+    height: 4rem;
+    min-height: fit-content;
+}
+
+#nav ul {
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#nav ul a {
+    width: 100px;
+    color: white;
+    padding: 5px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+#nav ul a:hover {
+    color: rgb(0, 0, 0);
+    background-color: white;
+    border-radius: 5px;
+}
+
+#nav ul a li {
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+#time{
+    color: white;
+    text-align: center;
+    margin: 1rem auto;
+    font-weight: 300;
+    text-shadow: 0 0 5px white;
+}
+
+
+#sign{
+    filter: invert(1);
+    width: 300px !important;
+    height: 100px !important;
+    transform: invert(1);
+}
+/* HOME */
+
+#home {
+    width: 60%;
+    height: fit-content;
+    margin: auto;
+    background-color: rgb(13, 31, 65);
+    padding: 2rem;
+}
+
+#home h1 {
+    text-align: center;
+    font-size: 10vw;
+    color: white;
+    margin: 1rem 0;
+}
+
+#home img {
+    display: block;
+    width: 400px;
+    height: 270px;
+    margin: auto;
+}
+
+.intro {
+    color: white;
+    width: 70%;
+    margin: 2rem auto;
+    font-size: 1.5rem;
+    text-align: justify;
+}
+
+/* ABOUT */
+
+#about {
+    width: 60%;
+    height: fit-content;
+    margin: auto;
+    background-color: rgb(83, 24, 37);
+    padding: 2rem;
+}
+
+#about h1{
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: white;
+}
+
+#about img{
+    display: block;
+    width: 200px;
+    margin: 2rem auto;
+    border-radius: 50%;
+    background-color: rgb(255, 221, 198);
+}
+#about table {
+    border-collapse: collapse;
+    width: 100%;
+    color: white;
+}
+
+#about th,td{
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 5px;
+    width: 50%;
+    height: 2rem;
+}
+
+#about a{
+    color: white;
+}
+#about a:hover{
+    color: black;
+    font-weight: bold;
+}
+
+#about tr:nth-child(even) {
+    background-color: #be6464;
+}
+
+#about tr:nth-child(odd) {
+    background-color: #b9413d;
+}
+
+
+
+/* EDUCATION */
+
+#education {
+    width: 60%;
+    height: fit-content;
+    margin: auto;
+    background-color: rgb(88, 63, 124);
+    padding: 2rem;
+}
+
+#education h1{
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: white;
+}
+
+#education img{
+    display: block;
+    width: 200px;
+    height: 200px;
+    margin: 2rem auto;
+    border-radius: 50%;
+    background-color: rgb(255, 221, 198);
+}
+#education table {
+    border-collapse: collapse;
+    width: 100%;
+    color: white;
+}
+
+#education th,td{
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 5px;
+    width: 50%;
+    height: 2rem;
+}
+
+#education a{
+    color: white;
+}
+#education a:hover{
+    color: black;
+    font-weight: bold;
+}
+#education tr:nth-child(even) {
+    background-color: #6479be;
+}
+
+#education tr:nth-child(odd) {
+    background-color: #3d6fb9;
+}
+
+

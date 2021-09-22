@@ -1,0 +1,170 @@
+/* NAVBAR */
+
+#nav {
+    height: fit-content;
+}
+
+#nav ul {
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#nav ul a li{
+    text-align: center;
+    font-size: 1rem;
+}
+
+
+#time{
+    font-weight: 200;
+    font-size: 1rem;
+    padding: 1rem 0;
+}
+/* HOME */
+
+#home {
+    width: 90%;
+    height: fit-content;
+    margin: auto;
+    background-color: rgb(13, 31, 65);
+    padding: 1rem;
+}
+/* 
+#home h1 {
+    font-size: 10vw;
+} */
+
+#home img {
+    display: block;
+    width: 225px;
+    height: 150px;
+    margin: auto;
+}
+
+.intro {
+    color: rgb(255, 255, 255);
+    width: 80%;
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    text-align: justify;
+}
+
+#time{
+    color: white;
+    text-align: center;
+    margin: auto;
+    font-weight: 300;
+}
+
+#sign{
+    width: 150px !important;
+    height: 50px !important;
+}
+/* ABOUT */
+
+#about {
+    width: 90%;
+    height: fit-content;
+    margin: auto;
+    background-color: rgb(65, 13, 29);
+    padding: 1rem;
+}
+
+#about h1{
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: white;
+}
+
+#about img{
+    display: block;
+    width: 100px;
+    margin: 2rem auto;
+    border-radius: 50%;
+    background-color: rgb(255, 221, 198);
+}
+#about table {
+    border-collapse: collapse;
+    width: 100%;
+    color: white;
+}
+
+#about th,td{
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 5px;
+    width: 50%;
+    height: 1rem;
+}
+
+#about tr:nth-child(even) {
+    background-color: #be6464;
+}
+
+#about tr:nth-child(odd) {
+    background-color: #b9413d;
+}
+
+
+
+/* EDUCATION */
+
+#education {
+    width: 90%;
+    height: fit-content;
+    margin: auto;
+    background-color: rgb(99, 83, 122);
+    padding: 1rem;
+}
+
+#education h1{
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: white;
+}
+
+#education img{
+    display: block;
+    width: 100px;
+    height: 100px;
+    margin: 2rem auto;
+    border-radius: 50%;
+    background-color: rgb(255, 221, 198);
+}
+#education table {
+    border-collapse: collapse;
+    width: 100%;
+    color: white;
+}
+
+#education th,td{
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 5px;
+    width: 50%;
+    height: 1rem;
+}
+
+#education a{
+    color: white;
+}
+#education a:hover{
+    color: black;
+    font-weight: bold;
+}
+#education tr:nth-child(even) {
+    background-color: #6479be;
+}
+
+#education tr:nth-child(odd) {
+    background-color: #3d6fb9;
+}
+
+
