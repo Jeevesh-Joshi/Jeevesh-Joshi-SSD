@@ -7,7 +7,12 @@
 }
 
 html {
-    background-color: rgb(4, 24, 65);
+    /* background-image: linear-gradient(to bottom, #000000, rgb(4, 58, 121), rgb(0, 0, 0)); */
+    /* background-color: rgb(4, 24, 65); */
+    background-image: url('https://www.wallpaperbetter.com/wallpaper/88/738/544/electronic-wallpaper-2K.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 /* NAVBAR */
@@ -97,7 +102,7 @@ html {
     width: 60%;
     height: fit-content;
     margin: auto;
-    background-color: rgb(83, 24, 37);
+    background-color: rgb(151, 49, 49);
     padding: 2rem;
 }
 
@@ -138,13 +143,12 @@ html {
 }
 
 #about tr:nth-child(even) {
-    background-color: #be6464;
+    background-color: #b69c08;
 }
 
 #about tr:nth-child(odd) {
-    background-color: #b9413d;
+    background-color: #42801e;
 }
-
 
 
 /* EDUCATION */
@@ -153,7 +157,8 @@ html {
     width: 60%;
     height: fit-content;
     margin: auto;
-    background-color: rgb(88, 63, 124);
+    background-color: rgb(73, 117, 73);
+    /* background-color: rgb(88, 63, 124); */
     padding: 2rem;
 }
 
@@ -194,7 +199,7 @@ html {
     font-weight: bold;
 }
 #education tr:nth-child(even) {
-    background-color: #6479be;
+    background-color: #974993;
 }
 
 #education tr:nth-child(odd) {
