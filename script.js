@@ -26,10 +26,7 @@ let home = `<div id="home">
 <h1>HELLO WORLD!</h1>
 <img src="images/about.jpg" alt="dp">
 <div class="intro">
-    Myself Jeevesh Chandra Joshi. Currently I am pursuing my Masters from IIIT Hyderabad with CSE as
-    Major. This website is created by me in order to give brief introduction about me. Do checkout
-    different sections of this website and get to know about me if you are interested 😁.
-    <!-- I reside in Uttarkhand - The Land of Gods. -->
+Myself Jeevesh Chandra Joshi. Currently, I am pursuing my Master's from IIIT Hyderabad with CSE Major. This website is created by me in order to give a brief introduction about me. Do check out different sections of this website and get to know about me if you are interested 😁.
 </div>
 <img src="images/sign.png" alt="sign" id="sign">
 </div>`;
