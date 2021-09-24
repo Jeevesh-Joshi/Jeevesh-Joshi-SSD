@@ -53,16 +53,16 @@ let about = `<div id="about">
             <td>Rudrapur, Uttarkhand</td>
         </tr>
         <tr>
+            <th>Hobbies</th>
+            <td>Gaming, Singing</td>
+        </tr>
+        <tr>
             <th>Gaming Alias</th>
             <td>DEVILJEE</td>
         </tr>
         <tr>
-            <th>Hobbies</th>
-            <td>Gaming, Singing, Acting</td>
-        </tr>
-        <tr>
             <th>Favourite Sports</th>
-            <td>Basketball, Cricket, TT ... you just name it and I'll join you.</td>
+            <td>Basketball, Cricket</td>
         </tr>
         <tr>
             <th colspan="2"><a href="https://www.linkedin.com/in/jeeveshjoshi/" target="_blank">Github</a></th>

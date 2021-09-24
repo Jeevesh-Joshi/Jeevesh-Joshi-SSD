@@ -7,18 +7,19 @@
 }
 
 html {
+    background-image: linear-gradient(to right,#02040c,#010205);
     /* background-color: rgb(4, 24, 65); */
-    background: url(images/bg.jpg) no-repeat center center; 
+    /* background: url(images/bg.jpg) no-repeat center center; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;
+    background-size: cover; */
 }
 
 /* NAVBAR */
 
 #nav {
-    background-color: black;
+    background-color: rgb(16, 23, 36);
     height: 4rem;
     min-height: fit-content;
     position: fixed;
@@ -79,7 +80,7 @@ html {
     width: 60%;
     height: fit-content;
     margin: auto;
-    background-image: linear-gradient(to bottom,rgb(46, 63, 95),rgb(13, 31, 65),rgb(0, 0, 0));
+    background-image: linear-gradient(to bottom,rgb(46, 74, 126),rgb(13, 31, 65),rgb(12, 20, 44));
     padding: 2rem;
 }
 
@@ -111,7 +112,9 @@ html {
     width: 60%;
     height: fit-content;
     margin: auto;
-    background-image: linear-gradient(to bottom,rgb(167, 61, 61),rgb(110, 38, 38),rgb(0, 0, 0));
+    /* background-image: linear-gradient(to bottom,rgb(73, 117, 73),rgb(43, 78, 43),rgb(12, 54, 12)); */
+    background-image: linear-gradient(to bottom,rgb(21, 143, 106),rgb(25, 92, 72),rgb(14, 94, 70));
+    /* background-color: ; */
     padding: 2rem;
 }
 
@@ -151,13 +154,10 @@ html {
     font-weight: bold;
 }
 
-#about tr:nth-child(even) {
-    background-color: #b69c08;
+#about tr{
+    background-color: rgb(9, 100, 161);
 }
 
-#about tr:nth-child(odd) {
-    background-color: #42801e;
-}
 
 
 /* EDUCATION */
@@ -166,7 +166,7 @@ html {
     width: 60%;
     height: fit-content;
     margin: auto;
-    background-image: linear-gradient(to bottom,rgb(73, 117, 73),rgb(28, 61, 28),rgb(0, 0, 0));
+    background-image: linear-gradient(to bottom,rgb(204, 156, 67),orange,rgb(116, 83, 22));
     padding: 2rem;
 }
 
@@ -206,12 +206,8 @@ html {
     color: black;
     font-weight: bold;
 }
-#education tr:nth-child(even) {
-    background-color: #974993;
-}
-
-#education tr:nth-child(odd) {
-    background-color: #3d6fb9;
+#education tr{
+    background-color: rgb(73, 117, 73);
 }
 
 
