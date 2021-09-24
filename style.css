@@ -8,7 +8,7 @@
 
 html {
     /* background-color: rgb(4, 24, 65); */
-    background: url(images/bg.jpg) no-repeat center center fixed; 
+    background: url(images/bg.jpg) no-repeat center center; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -79,7 +79,7 @@ html {
     width: 60%;
     height: fit-content;
     margin: auto;
-    background-color: rgb(13, 31, 65);
+    background-image: linear-gradient(to bottom,rgb(46, 63, 95),rgb(13, 31, 65),rgb(0, 0, 0));
     padding: 2rem;
 }
 
@@ -111,7 +111,7 @@ html {
     width: 60%;
     height: fit-content;
     margin: auto;
-    background-color: rgb(151, 49, 49);
+    background-image: linear-gradient(to bottom,rgb(167, 61, 61),rgb(110, 38, 38),rgb(0, 0, 0));
     padding: 2rem;
 }
 
@@ -166,8 +166,7 @@ html {
     width: 60%;
     height: fit-content;
     margin: auto;
-    background-color: rgb(73, 117, 73);
-    /* background-color: rgb(88, 63, 124); */
+    background-image: linear-gradient(to bottom,rgb(73, 117, 73),rgb(28, 61, 28),rgb(0, 0, 0));
     padding: 2rem;
 }
 
@@ -184,7 +183,7 @@ html {
     height: 200px;
     margin: 2rem auto;
     border-radius: 50%;
-    background-color: rgb(255, 221, 198);
+    background-color: rgb(198, 234, 255);
 }
 #education table {
     border-collapse: collapse;
