@@ -5,43 +5,24 @@
 }
 
 #nav ul {
-    height: inherit;
-    display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
 }
 
 #nav ul a li{
-    text-align: center;
     font-size: 1rem;
 }
 
-
-#time{
-    font-weight: 200;
-    font-size: 1rem;
-    padding: 1rem 0;
-}
 /* HOME */
 
 #home {
     width: 90%;
     height: fit-content;
-    margin: auto;
-    background-color: rgb(13, 31, 65);
     padding: 1rem;
 }
-/* 
-#home h1 {
-    font-size: 10vw;
-} */
 
 #home img {
-    display: block;
     width: 225px;
     height: 150px;
-    margin: auto;
 }
 
 .intro {
@@ -53,11 +34,11 @@
 }
 
 #time{
-    color: white;
-    text-align: center;
     margin: 2rem auto;
     margin-top: 10rem;
-    font-weight: 300;
+    font-weight: 200;
+    font-size: 1rem;
+    width: fit-content;
 }
 
 #sign{
@@ -73,34 +54,21 @@
     padding: 1rem;
 }
 
-#about h1{
-    text-align: center;
-    font-size: 2rem;
-    margin-bottom: 2rem;
-    color: white;
-}
-
-#about img{
+#bio{
     display: block;
     width: 100px;
-    margin: 2rem auto;
-    border-radius: 50%;
-}
-#about table {
-    border-collapse: collapse;
-    width: 100%;
-    color: white;
 }
 
+
 #about th,td{
-    border: 1px solid #dddddd;
-    text-align: center;
-    padding: 5px;
-    width: 50%;
+    font-size: 0.8rem;
     height: 1rem;
 }
 
-
+#social img{
+    width: 50px;
+    margin: 1rem;
+}
 /* EDUCATION */
 
 #education {
@@ -110,39 +78,13 @@
     padding: 1rem;
 }
 
-#education h1{
-    text-align: center;
-    font-size: 2rem;
-    margin-bottom: 2rem;
-}
-
 #education img{
-    display: block;
     width: 100px;
     height: 100px;
-    margin: 2rem auto;
-    border-radius: 50%;
-}
-#education table {
-    border-collapse: collapse;
-    width: 100%;
-    color: white;
 }
 
 #education th,td{
-    border: 1px solid #dddddd;
-    text-align: center;
-    padding: 5px;
-    width: 50%;
+    font-size: 0.8rem;
     height: 1rem;
 }
-
-#education a{
-    color: white;
-}
-#education a:hover{
-    color: black;
-    font-weight: bold;
-}
-
 

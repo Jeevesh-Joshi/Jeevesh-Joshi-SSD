@@ -33,7 +33,7 @@ Myself Jeevesh Chandra Joshi. Currently, I am pursuing my Master's from IIIT Hyd
 
 let about = `<div id="about">
 <h1>KNOW ME</h1>
-<img src="images/jj.png" alt="dp">
+<img id="bio" src="images/jj.png" alt="dp">
 <div class="table">
     <table>
         <tr>
@@ -64,13 +64,13 @@ let about = `<div id="about">
             <th>Favourite Sports</th>
             <td>Basketball, Cricket</td>
         </tr>
-        <tr>
-            <th colspan="2"><a href="https://www.linkedin.com/in/jeeveshjoshi/" target="_blank">Github</a></th>
-        </tr>
-        <tr>
-            <th colspan="2"><a href="https://github.com/Jeevesh-Joshi" target="_blank">LinkedIn</a></th>
-        </tr>
     </table>
+    <br>
+    <div id="social">
+        <a href="https://www.linkedin.com/in/jeeveshjoshi/" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/174/174857.png"></a>
+        <a href="https://github.com/Jeevesh-Joshi" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="Github" alt="LinkedIn"></a>
+        <a href="https://drive.google.com/file/d/1rwqVc-81x8V30FK-qgpY4evAUnsjx2H4/view?usp=sharing" target="_blank"><img src="https://www.conovercompany.com/wp-content/uploads/2019/06/wr-resumes-logo.png" alt="Github" alt="LinkedIn"></a>
+    </div>
 </div>
 </div>`;
 
@@ -98,12 +98,6 @@ let education = `<div id="education">
         <tr>
             <th>High School</th>
             <td>APS Ambala Cantt</td>
-        </tr>
-    </table>
-    <br>
-    <table>
-        <tr>
-            <th colspan="2"><a href="https://drive.google.com/file/d/1rwqVc-81x8V30FK-qgpY4evAUnsjx2H4/view?usp=sharing" target="_blank">CV / RESUME</a></th>
         </tr>
     </table>
     <br>

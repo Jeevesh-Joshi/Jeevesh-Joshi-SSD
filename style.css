@@ -25,6 +25,7 @@ html {
     position: fixed;
     top: 0;
     width: 100%;
+    box-shadow: 0 3px 5px rgb(36, 48, 75);
 }
 
 #nav ul {
@@ -113,7 +114,7 @@ html {
     height: fit-content;
     margin: auto;
     /* background-image: linear-gradient(to bottom,rgb(73, 117, 73),rgb(43, 78, 43),rgb(12, 54, 12)); */
-    background-image: linear-gradient(to bottom,rgb(21, 143, 106),rgb(25, 92, 72),rgb(14, 94, 70));
+    background-image: linear-gradient(to bottom,#3a97c5,#165979,#042d41);
     /* background-color: ; */
     padding: 2rem;
 }
@@ -125,7 +126,7 @@ html {
     color: white;
 }
 
-#about img{
+#bio{
     display: block;
     width: 200px;
     margin: 2rem auto;
@@ -155,9 +156,22 @@ html {
 }
 
 #about tr{
-    background-color: rgb(9, 100, 161);
+    background-color: rgb(196, 69, 60);
 }
 
+#social{
+    display: flex;
+    justify-content: center;
+}
+
+#social img{
+    cursor: pointer;
+    width: 60px;
+    margin: 1.5rem;
+}
+#social img:hover{
+    transform: scale(1.1);
+}
 
 
 /* EDUCATION */
