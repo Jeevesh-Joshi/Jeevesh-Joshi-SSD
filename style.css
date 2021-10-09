@@ -3,7 +3,7 @@
     margin: 0;
     text-decoration: none;
     list-style: none;
-    font-family: 'Segoe UI';
+    font-family: 'Raleway','Segoe UI','Arial';
 }
 
 html {
@@ -113,9 +113,7 @@ html {
     width: 60%;
     height: fit-content;
     margin: auto;
-    /* background-image: linear-gradient(to bottom,rgb(73, 117, 73),rgb(43, 78, 43),rgb(12, 54, 12)); */
     background-image: linear-gradient(to bottom,#3a97c5,#165979,#042d41);
-    /* background-color: ; */
     padding: 2rem;
 }
 
