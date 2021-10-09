@@ -8,12 +8,6 @@
 
 html {
     background-image: linear-gradient(to right,#02040c,#010205);
-    /* background-color: rgb(4, 24, 65); */
-    /* background: url(images/bg.jpg) no-repeat center center; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover; */
 }
 
 /* NAVBAR */
@@ -58,8 +52,8 @@ html {
     color: white;
     text-align: center;
     margin: 2rem auto;
-    width: 120px;
-    padding: 10px;
+    width: fit-content;
+    padding: 1rem;
     border-radius: 10px;
     box-shadow: 0 0 10px white;
     margin-top: 6rem;
